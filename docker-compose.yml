@@ -2,6 +2,7 @@ version: "3.9"
 services:
   monkey:
     build: .
-    #command: ...
+    command: /bin/sh
     volumes:
       - .:/app
+      - .ash_history:/root/.ash_history
