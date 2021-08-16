@@ -18,6 +18,10 @@ const (
 	LTHAN    = "<"
 	NOT      = "!"
 
+	// boolean
+	EQUAL  = "=="
+	NEQUAL = "!="
+
 	// delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
