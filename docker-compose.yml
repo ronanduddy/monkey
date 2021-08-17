@@ -2,7 +2,7 @@ version: "3.9"
 services:
   monkey:
     build: .
-    command: /bin/sh
+    command: go run main.go
     volumes:
       - .:/app
       - .ash_history:/root/.ash_history

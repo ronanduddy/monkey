@@ -1,4 +1,7 @@
-.PHONY: go
+.PHONY: ssh repl
 
-go:
-	@docker-compose run --rm monkey 
+ssh:
+	@docker-compose run --rm monkey /bin/sh
+
+repl:
+	@docker-compose run --rm monkey
